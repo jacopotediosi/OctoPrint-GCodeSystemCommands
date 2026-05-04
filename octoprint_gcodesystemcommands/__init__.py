@@ -116,6 +116,9 @@ class GCodeSystemCommands(
 
     def get_assets(self):
         return {"js": ["js/gcodesystemcommands.js"]}
+    
+    def is_template_autoescaped(self):
+        return True
 
     def get_update_information(self):
         return dict(
